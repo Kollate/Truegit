@@ -1,0 +1,20 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    entrypoint: "bash"
+    args: ["-c", "docker pull ${_IMAGE}:latest || exit 0"]
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "${_IMAGE}:${_TAG}",
+        "--cache-from",
+        "${_IMAGE}:latest",
+        ".",
+      ]
+images:
+  - "${_IMAGE}:${_TAG}"
+  - "${_IMAGE}:latest"
+options:
+  substitution_option: "ALLOW_LOOSE"
+  machineType: "E2_HIGHCPU_8"
