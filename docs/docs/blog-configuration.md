@@ -11,6 +11,8 @@ You can configure everything about your blog (except the domain) with `truegit.y
 title: My Blog
 description: A blog about coding and the universe
 logoImage: ./logo.jpg
+# Must be a HEX value. Color Red for instance?
+theme: "#FF0000"
 bannerImage: ./banner.jpg
 socials:
   facebook: https://www.facebook.com/my-profile
@@ -70,6 +72,14 @@ The banner of your blog. By default, this is empty.
 
 ```yaml
 bannerImage: ./banner.png
+```
+
+## Theme
+
+The theme color of your blog. It must be **HEX** value and it might be in **quotes** like this `"#000000"` (otherwise yaml ignores it as a comment).
+
+```yaml
+theme: "#000000"
 ```
 
 ## Socials
