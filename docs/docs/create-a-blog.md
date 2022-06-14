@@ -14,6 +14,10 @@ To create a blog on Truegit, you need to do follow these steps:
 
 Adding a new blog is simple. Make sure that you install the [Github App](https://bit.ly/3GyRCBG) and give it access to the repository where your blog lives (a repository with `truegit.yaml` file). Once you do that, you can add the repository to Treugit in the dashboard.
 
+## Adding a new post
+
+To create a new post, simply add a new markdown file to your repository. Read more [here](/docs/post)
+
 ## App Permissions
 
 Our Github app requires permissions to read and write content of your repository, access Pull Requests (PR) and make new Pull Requests, and add comments to issues. We need to be able to write content to your repository so that you can edit your posts on Truegit and other viewers may suggest an edit to your posts. Each edit to your post creates a new PR, which you may choose to merge to the main branch.

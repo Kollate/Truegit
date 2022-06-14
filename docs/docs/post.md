@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Post
 ---
 
-You can create a post by adding a markdown file with `.md` extension to your repository. We support [Github Flavored markdown](https://github.github.com/gfm/).
+You can create a post by adding a new markdown file with `.md` extension to your repository. If you are using a specific folder (`blogFolder` specified in `truegit.yaml` file) for all your posts, the file must be inside that folder. We support [Github Flavored markdown](https://github.github.com/gfm/).
 
 Each post can be configured by adding the front matter to your file. The front matter should be at the top of your file
 and is enclosed by `---`.
