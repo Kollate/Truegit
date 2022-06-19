@@ -14,6 +14,7 @@ logoImage: ./logo.jpg
 # Must be a HEX value. Color Red for instance?
 theme: "#FF0000"
 bannerImage: ./banner.jpg
+backgroundColor: "#FAF5EF"
 socials:
   facebook: https://www.facebook.com/my-profile
   twitter: https://www.twitter.com/my-profile
@@ -72,6 +73,14 @@ The banner of your blog. By default, this is empty.
 
 ```yaml
 bannerImage: ./banner.png
+```
+
+## Body Background
+
+The background color of your blog. By default, this is white. Note that it must be a HEX value in quotes (to avoid YAML comment).
+
+```yaml
+backgroundColor: "#FAF5EF"
 ```
 
 ## Theme
