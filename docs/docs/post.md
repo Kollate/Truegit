@@ -15,7 +15,10 @@ subTitle: This is a description of this post.
 date: 1989/07/11
 bannerImage: ./banner.png
 slug: this-is-my-slug
+disableSuggestEdit: false
 tags: [kubernetes, graphql]
+weight: 5
+draft: true
 authors:
   - author-1
   - author-2
@@ -91,6 +94,16 @@ Tags are a way to organize your posts by hashtags. It allows your viewer to see 
 ```yaml
 tags: [kubernetes, graphql]
 ```
+
+### Weight
+
+Weight can be used to order the post. Higher the weight, higher it is on the list. By default the posts are ordered by publication date.
+
+```yaml
+weight: 5
+```
+
+###
 
 ## Authors
 
