@@ -15,7 +15,7 @@ We currently support three layouts that you can pick using the `layout` key.
 
 1. Default Layout: To use this layout, leave the `layout` key empty. [See a demo here](https://13ea3711-4f0f-4bc8-83d7-4271929cd701.truegit.io/).
 
-2. Brooklyn: This is a [simple layout for personal blogs](13ea3711-4f0f-4bc8-83d7-4271929cd701.truegit.io) To use this layout use:
+2. Brooklyn: This is a [simple layout for personal blogs](https://13ea3711-4f0f-4bc8-83d7-4271929cd701.truegit.io) To use this layout use:
 
 ```yaml
 layout:
